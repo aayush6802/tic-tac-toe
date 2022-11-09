@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Secular+One&family=Ubuntu&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient(to top,#553e0c,#e141e1);
+    overflow: hidden;
+}
+.container{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    width: 100vw;
+    background: #5e4865;
+    padding: 10px;
+    /* border-radius: 40px; */
+    /* margin: 10px auto; */
+    font-size: 2.5vmax;
+    text-align: center;
+    color: #ae9c5c;
+    font-family: 'Ubuntu', sans-serif;
+}
+.start-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#start{
+    margin: 10px auto;
+    text-align: center;
+    padding: 9px;
+    background: #bb78bb;
+    border: none;
+    border-radius: 32px;
+    font-size: 1.6vmax;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+
+.turn{
+    /* background: #F29393; */
+    width: 100vw;
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: space-evenly;
+}
+#turnX{
+    padding: 6px;
+    border-radius: 10px;
+}
+#turnO{
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#result{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    font-size: 1.6vmax;
+}
+#result p{
+    color: #fefffd;
+	border-radius: 10px;
+}
+
+.boxes-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    background: #a672d9;
+    display: grid;
+    grid: 95px 95px 95px/95px 95px 95px;
+    gap: 7px;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.boxes div{
+    display: flex;
+    background: rebeccapurple;
+    /* background: white; */
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.boxes div:hover{
+    background: rgb(218, 48, 189);
+    
+}
+
+.gifBox img{
+    /* width: 36%; */
+    width: 0px;
+    position: absolute;
+    bottom: -16em;
+    left: 30em;
+}
+
+.reset-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    margin-top:5px;
+    text-align: center;
+    padding: 5px 10px;
+    background: #bb78bb;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5vmax;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+

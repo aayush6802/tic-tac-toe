@@ -16,33 +16,4 @@
         font-size: 2.5vmax;
     }
 
-    /*.container{
-        height: 125vh;
-    }
-    h1 {
-        width: 28.5rem;
-    }
-    #start{
-        width: 50%;
-    margin: 24px 43vw;
-
-    }
-    .turn{
-        width: 85vw;
-        margin-left: 23vw;
-    }
-    #result{
-    margin-left: 51vw;
-    }
-    .boxes {
-        width: 96vw;
-        height: 96vw;
-        grid: 30vw 30vw 30vw/30vw 30vw 30vw;
-        margin-left: 18vw;;
-
-    }
-    #reset{
-        width: 37vw;
-        margin: 31px 50%;
-    }
-} */
+} 

@@ -64,13 +64,15 @@ const checkWin = () => {
 }
 
 // game logic
-startBtn.addEventListener('click', () => {
+// startBtn.addEventListener('click', () => {
   // gameMusic.play()
-  StartAudio.play()
-  turnX.style.backgroundColor = "rgb(47 57 211 / 70%)"
+  
 
   Array.from(gameBox).forEach(e => {
+  turnX.style.backgroundColor = "rgb(47 57 211 / 70%)"
+  
     e.addEventListener('click', () => {
+      // StartAudio.play()
       if (e.innerHTML === "") {
         e.innerHTML = turn;
         turnSound.play();
@@ -80,7 +82,7 @@ startBtn.addEventListener('click', () => {
     })
 
   })
-})
+
 
 
 

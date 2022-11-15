@@ -9,7 +9,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 body{
-	background-image: linear-gradient(to top,#553e0c,#e141e1);
+	background: #efadec;
     overflow: hidden;
 }
 .container{
@@ -22,13 +22,13 @@ body{
 }
 h1{
     width: 100vw;
-    background: #5e4865;
+    background: #1f1721;
     padding: 10px;
     /* border-radius: 40px; */
     /* margin: 10px auto; */
     font-size: 2.5vmax;
     text-align: center;
-    color: #ae9c5c;
+    color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
 }
 .start-container{
@@ -98,7 +98,7 @@ h1{
     background: rebeccapurple;
     /* background: white; */
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     cursor: pointer;
     justify-content: center;
